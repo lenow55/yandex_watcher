@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yandex-watcher"
+version = "0.1.0"
+description = "Проект по отслеживанию живости виртуалок и их подъёму"
+authors = ["Новиков Илья <nov.ilucha@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic-config = "^0.3.0"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
