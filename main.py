@@ -20,7 +20,7 @@ parser.add_argument(
     "--timedelta",
     type=check_range_timedelta,
     required=False,
-    default=300,
+    default=15,
     help="Время в секундах между повторными запросами от 5sec до 1h",
 )
 parser.add_argument(
